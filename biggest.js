@@ -26,6 +26,8 @@ function isGoodNumber(n) {
     return typeof n === 'number' && isFinite(n)
 }
 
+
+
 function biggest(list) {
 
     let greatestNumber = -Infinity;
@@ -45,6 +47,8 @@ function biggest(list) {
     }
     return greatestNumber;
 }
+
+
 
 
 
